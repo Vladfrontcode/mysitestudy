@@ -1,5 +1,65 @@
+html {
+box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 body 
 {
     font-family: 'Heebo', sans-serif;
     font-family: 'Inter', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    width: 1440px;
+    height: 94px;
+    
+}
+
+.header-logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 170px;
+}
+
+
+.header-menu {
+    padding-top: 37.5px;
+    padding-left: 800px;
+    padding-right: 178px;
+}
+
+.menu-paragraph {
+    padding-left: 24px;
+    color:#000000;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter';
+}
+
+.main-container {
+    display: flex;
+    padding-left: 270px;
+    padding-right: 270px;
 }
