@@ -12,32 +12,38 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-container"> 
-            <div class="header-logo">
-                <img 
-                srcset="images/logo.png,
-                images/logo@2x.png 2x"
-                src="images/logo.png" 
-                alt="error">
-            </div>
-            <div class="header-menu">
-                <a href="/" class="menu-paragraph">Blog</a>
-                <a href="/" class="menu-paragraph">Work</a>
-                <a href="/" class="menu-paragraph">Contact</a>
-            </div>
+        <div class="header-container">
+            <div class="header-inside">
+                <div class="header__logo">
+                    <img 
+                    srcset="images/logo.png,
+                    images/logo@2x.png 2x"
+                    src="images/logo.png" 
+                    alt="error">
+                </div>
+                <div class="header-menu">
+                    <a href="/" class="menu_paragraph">Blog</a>
+                    <a href="/" class="menu_paragraph">Work</a>
+                    <a href="/" class="menu_paragraph">Contact</a>
+                </div>
+            </div> 
         </div>
     </header>
 <main>
     <div class="main-container">
-        <h1>Hi, I’m John!</h1>
-        <h1>Creative Technologist</h1>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <button>Check my Work</button>
-        <img 
-            srcset="images/myface.png,
-            images/myface@2x.png 2x"
-            src="images/myface.png" 
-            alt="error">
+        <div class="main-leftside">
+            <h1 class="main-leftside_headertop">Hi, I’m John!</h1>
+            <h1 class="main-leftside_header">Creative Technologist</h1>
+            <p class="main-leftside_text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button class="main-leftside_button">Check my Work</button>
+        </div>
+            <div class="main-container__image">
+                <img 
+                    srcset="images/myface.png,
+                    images/myface@2x.png 2x"
+                    src="images/myface.png" 
+                    alt="error">
+            </div>
     </div>
     <div>
         <h2>Recent Posts</h2>
