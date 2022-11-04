@@ -182,8 +182,9 @@ body
 
 .posts-container {
     display: flex;
-    padding-top: 80px;
+    padding-top: 32px;
     padding-bottom: 40px;
+    gap: 24px;
 }
 
 .post-content {
@@ -192,12 +193,147 @@ body
     align-items: flex-start;
     padding: 16px;
     gap: 8px;
-
     width: 438px;
     height: 238px;
-
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 8px;
 
 }
+
+.post-content__subtitle {
+    display: flex;
+    width: 406px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #636B78;
+    margin-top: 8px;
+
+}
+
+.post-content__title {
+    width: 406px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #0A2A42;
+}
+
+.post-content__text {
+    width: 406px;
+    height: 108px;
+    margin-top: 10px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #21243D;
+
+}
+
+.work-container {
+    width: 1440px;
+    height: 650px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.work-header {
+    display: flex;
+    padding-top: 40px;
+    gap: 654px;
+
+}
+ .work__title {
+    width: 170px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+
+ }
+
+ .work-hub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 24px;
+    width: 900px;
+    height: 251px;
+
+ }
+
+ .work-hub__title {
+    width: 585px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #0A2A42;
+
+ }
+
+ .work-hub__date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 4px 16px;
+    gap: 10px;
+    width: 73px;
+    height: 32px;
+    background: #2A326F;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+ }
+
+ .overtext {
+    display: flex;
+    margin-top: 8px;
+
+ }
+ .work-hub__topic {
+    margin-left: 24px;
+    margin-top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8695A4;
+
+ }
+
+ .work-hub__text {
+    width: 585px;
+    height: 81px;
+    margin-top: 24px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #21243D;
+
+ }
