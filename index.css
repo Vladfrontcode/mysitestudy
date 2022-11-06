@@ -65,6 +65,16 @@ body
     font-family: 'Inter';
 }
 
+.menu_paragraphactiv {
+    
+    color: #FF6464;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Inter';
+}
+
 .main-container {
     display: flex;
     width: 1440px;
@@ -272,6 +282,8 @@ body
     gap: 24px;
     width: 900px;
     height: 251px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 0px;
 
  }
 
@@ -335,5 +347,99 @@ body
     font-size: 18px;
     line-height: 150%;
     color: #21243D;
+
+ }
+
+ .bottom-container {
+    padding-top: 104px;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 75px;
+
+ }
+
+ .img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+ }
+
+ .bottom-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #678398;
+    margin-top: 40px;
+
+ }
+ 
+ .blog-title {
+    margin-top: 40px;
+    padding-left: 336px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;    
+    color: #000000;
+    
+
+ }
+
+.blogpost-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 26px;
+    gap: 24px;
+    width: 800px;
+    height: 896px;
+}
+
+ .blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 320px;
+    padding: 0px 0px 16px;
+    width: 800px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 0px;
+
+ }
+ .blog-container__text{
+    width: 768px;
+    height: 54px;
+    margin-top: 10px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #21243D;
+
+ }
+
+ .blogpost-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 800px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+
 
  }
